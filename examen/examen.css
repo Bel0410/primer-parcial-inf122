@@ -1,0 +1,115 @@
+:root{
+    --white: #FFFFFF;
+    --black-1: #000000 20%;
+    --Gray: #A3ABB2;
+    --yelow: #FFE071;
+    --gray-blue:#3E64AA;
+    --Clear-gray: #3D3D3D;
+    --black: #000000;
+    --yelow-baby: #FFE071 80%;
+    --black-gray: #0C151D;
+    --black-blue: #171F26;
+    --white-gray: #F1F2F4;
+    --sm: 14px;
+    --md: 20px;
+    --lg: 60px;
+}
+body{
+    font-family: 'Nunito';
+    
+}
+.ex{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #000000;
+}
+.Inicio{
+    display: grid;   
+    grid-template-rows: auto 1fr auto;
+    width: 100%;
+    justify-items: center;
+    background-color:black;
+}
+.title{
+    color: var(--white);
+}
+
+.subtitle{
+    color: #FFFFFF;
+}
+.iconos{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+    margin: 16px 0 16px 0 ;
+}
+.img-icons{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 28px;
+}
+.ref{
+    display: flex;
+    color: var(--white);
+    width: 634px;
+    padding: 20px 2px;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+.button{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 256px; 
+    height: 56px;
+    border-radius: 20px;  
+}
+.button1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 256px; 
+    height: 56px;
+    border-radius: 20px;
+    background: #171F26;
+}
+.base-img{
+    display: flex; 
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+    margin: 16px 0px 16px 0px ;
+}
+.img-logo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px 260px 50px 260px;
+    justify-content: center;
+}
+.card-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 28px;
+}
+.card-img figure img{
+    width: 100px;
+    height: 20vh;
+}
+@media (max-width:720px){
+    .img-logo{
+        grid-template-columns: repeat(1,1fr);
+        margin: 50px 10px 50px 10px;
+    }
+}
